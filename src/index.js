@@ -69,33 +69,6 @@ async function fetchGallery() {
   } catch (error) {
     console.log(error);
   }
-
-  // galleryApiService.fetchImages().then(({ hits, totalHits}) => {
-  //   const totalPages = Math.ceil(totalHits / galleryApiService.perPage);
-  //   // const fetchCounter = Math.ceil()
-  //   if (!hits.length) {
-  //     loadMoreBtn.hide();
-  //     return Notify.failure(
-  //       'Sorry, there are no images matching your search query. Please try again.'
-  //     );
-  //   }
-
-  //   if (galleryApiService.currentPage === 1 && hits.length) {
-  //     Notify.info(`Hooray! We found ${totalHits} images.`);
-  //   }
-  //    if (galleryApiService.currentPage === totalPages) {
-
-  //     loadMoreBtn.hide();
-  //     Notify.info("We're sorry, but you've reached the end of search results.");
-  //   }
-  //   appendGalleryMarkup(hits);
-  //   const simpleLightbox = new SimpleLightbox('.gallery a');
-  //   simpleLightbox.refresh()
-  //   if(galleryApiService.currentPage>1){
-  //     smoothScroll()
-  //   }
-  //   loadMoreBtn.enable();
-  // });
 }
 
 function clearImagesContainer() {

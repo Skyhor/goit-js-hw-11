@@ -1,4 +1,4 @@
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
+// import { Notify } from 'notiflix/build/notiflix-notify-aio';
 const URL = 'https://pixabay.com/api/';
 //const Filter = 'image_type=photo&orientation=horizontal&safesearch=true';
 const axios = require('axios').default;
